@@ -14,7 +14,7 @@ let body = {
  * Approve milestone 2
  */
 function milestone2() {
-  body.milestoneName = 'milestone 1';
+  body.milestoneName = 'Milestone 1';
   $('#milestone3Button').removeAttr('disabled');
   $('#milestone2Button').attr('disabled', 'disabled');
 
@@ -25,7 +25,7 @@ function milestone2() {
  * Approve milestone 3
  */
 function milestone3() {
-  body.milestone = 'milestone 2';
+  body.milestoneName = 'Milestone 2';
   $('#milestone3Button').attr('disabled', 'disabled');
 
   sendEvent();

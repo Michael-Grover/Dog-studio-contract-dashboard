@@ -3,21 +3,22 @@
 /* eslint-enable no-undef */
 /* eslint-enable no-unused-vars */
 
+console.log('test');
 
 let body = {
   '$class': 'org.accordproject.payment.milestone.MilestoneReached',
-  'milestoneName':'milestone1',
+  'milestoneName':'',
 };
 
 /**
  * Approve milestone 2
  */
 function milestone2() {
-  body.milestone = 'milestone 1';
+  body.milestoneName = 'milestone 1';
   $('#milestone3Button').removeAttr('disabled');
   $('#milestone2Button').attr('disabled', 'disabled');
 
-  /*sendEvent();*/
+  sendEvent();
 }
 
 /**
@@ -37,6 +38,7 @@ function milestone3() {
  */
 function sendEvent(){
   let tempBody = body;
+  console.log(tempBody);
   $.ajax({
     type: 'POST',
     url: $('#executionUrl').val(),
@@ -45,5 +47,5 @@ function sendEvent(){
       'Content-Type': 'application/json'
     },
     data: JSON.stringify(tempBody)
-  })
+  });
 }

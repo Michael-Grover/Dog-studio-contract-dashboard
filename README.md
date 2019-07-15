@@ -46,7 +46,7 @@ Click `Create Contract`.
 
 Then switch to the `Connections` tab.
 
-![](docs/milestone-payment.png)
+![](docs/milestone-payment-clause.png)
  
 5. Paste in your execution URL from Clause Hub into the `Execution URL` field in the demo app.
 

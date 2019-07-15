@@ -9,7 +9,7 @@ A demo client application that invokes a smart clause hosted on [Clause Hub](htt
 You can either [download the latest release archive](https://github.com/clauseHQ/fragile-goods-app/archive/master.zip) or if you have `git` installed simply `git clone` the repository:
 
 ```
-git clone https://github.com/clauseHQ/fragile-goods-app.git
+git clone https://github.com/clauseHQ/milestone-payment-dashboard.git
 ```
 
 2. Install the dependencies.
@@ -27,9 +27,9 @@ npm start
 ```
 You should see the following output.
 ```
-mattmbp:fragile-goods-app matt$ npm start
+mattmbp:milestone-payment-dashboard matt$ npm start
 
-> fragile-goods-app@0.0.1 start /Users/matt/dev/clauseHQ/fragile-goods-app
+> milestone-payment-dashboard@0.0.1 start /Users/matt/dev/clauseHQ/fragile-goods-app
 > node app.js
 
 App running at http://localhost:3000
@@ -40,9 +40,7 @@ App running at http://localhost:3000
 
 5. Create an instance of the Fragile Goods clause in your Clause Hub account.
 
-In the template libary choose the following template.
-
-<img src="docs/fragile-goods-template.png" width="350">
+In the template libary choose the milestone payment template.
 
 Click `Create Contract`.
 
@@ -52,12 +50,6 @@ Then switch to the `Connections` tab.
  
 5. Paste in your execution URL from Clause Hub into the `Execution URL` field in the demo app.
 
-6. Click the `Start` button in the app to begin the timer.
-
-> Note that your device must have an accelerometer for this demo to pick up readings. Why not try this from your mobile phone?
-> 
-> If you don't have an accelerometer you can vary the delivery price by stopping the timer before / after it reaches 0 seconds. Late deliveries also impose a penalty.
-
-7. You can reset the timer by clicking reset.
+6. Click on "approve milestone" buttons to approve the respective milestones.
 
 &copy; Copyright 2018, Clause Inc. 

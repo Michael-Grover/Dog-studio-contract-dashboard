@@ -2,9 +2,7 @@
 
 <img src="docs/app.png" width="350">
 
-A demo client application that invokes a smart clause hosted on [Clause Hub](https://hub.clause.io). This app uses the [Fragile Goods sample](https://github.com/accordproject/cicero-template-library/tree/master/fragile-goods) template from the Cicero template library.
-
-A hosted version of this app is available at [https://clause-fragile-goods-app.netlify.com](https://clause-fragile-goods-app.netlify.com)
+A demo client application that invokes a smart clause hosted on [Clause Hub](https://hub.clause.io). This app uses the [Milestone Payment](https://drive.google.com/open?id=1Eg0JviUJ5QVf8DARvUdaC-kFU3ruz1_v) template.
 
 ## Running this demo on your machine
 
